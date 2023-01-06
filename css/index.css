@@ -1,0 +1,186 @@
+.background{
+    background-color: #4F4F4F;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: #13364d;
+    border-bottom: #000000 solid 2px;
+    padding: 0px;
+    max-width: auto;
+}
+
+.width-correction{
+    width: 100%;
+}
+
+.img-logo {
+    height: 140px;
+    margin: -9px;
+    width: 350px;
+}
+
+.contact {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.contact a{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.contact h2{
+    font-size: 25px;
+    margin-left: 70px;
+    padding: 5px 0 5px 0 ;
+}
+
+.contact ul{
+    list-style: none;
+    margin-left: 120px;
+    padding: 0px;
+}
+
+.whatsapp{
+    position: relative;
+}
+
+.whatsapp::before{
+    content: "";
+    background-image: url(../assets/whatsapp.svg);
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top:-10px;
+    left: -50px;
+}
+
+.mail{
+    position: relative;
+}
+
+.mail::before{
+    content: "";
+    background-image: url(../assets/mail.svg);
+    background-size: cover;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top:-7px;
+    left: -45px;
+}
+
+.menu {
+    border: #000000 solid 2px;
+    height: 814px;
+    
+}
+
+.options {
+    border-bottom: 1px solid #000000;
+    height: 20px;
+    width: 100%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.options a {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+}
+
+.options a::after {
+        content: "";
+        background-image: url(../assets/arrow-right.svg);
+        background-size: cover;
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 270px;
+}
+
+.save-operator {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.save-product {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.register-operator {
+    display: none;
+    height: 750px;
+}
+
+.register-product {
+    display: none;
+    height: 750px;
+}
+
+.product-stock {
+    display: none;
+    overflow-y: scroll;
+    height: 750px;
+}
+
+.products{
+    margin-top: 10px;
+    height: 55px;
+}
+
+.items {
+    color: #3B3B40 !important;
+    margin: 0;
+}
+
+.code {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.description{
+    color: #ffffff;
+    height: 30px;
+    text-align: center;
+}
+
+.uni {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.quantity {
+    color: #ffffff;
+    height: 30px;
+}
+
+.unitary-value {
+    color: #ffffff;
+    height: 30px;
+}
+
+.unitary-value {
+    color: #ffffff;
+    height: 30px;
+    text-align: end;
+}
+
+.value-items {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.products-items {
+    border-bottom: #000000 1px solid;
+}
+

@@ -1,0 +1,158 @@
+.container-master {
+    background-color: #13364d;
+    height: 947px;
+}
+
+.last-product {
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 70px;
+    max-width: 90%;
+    margin:30px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info-container{
+    max-width: 90%;
+    padding: 0;
+}
+
+.right-side {
+    align-items:flex-end;
+    justify-content: center;
+
+}
+
+.left-side {
+    justify-content: center;
+}
+
+.general-information{
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px 15px;
+    height: 500px;
+
+    justify-content: center;
+}
+
+.general-description {
+    border-bottom: #13364d dotted 2px;
+    height: 100%;
+    width: 100%;
+}
+
+.product-info {
+    
+    border-bottom: #13364d dotted 2px;
+    height: 50px;
+}
+
+
+.operator {
+    background-color: #2B5B7A;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 5px 15px;
+
+}
+
+.amount {
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px 15px;
+    height: 70px;
+}
+
+.total-payable {
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px 15px;
+    height: 70px;
+}
+
+.rest {
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px 15px;
+    height: 70px;
+}
+
+.letter-description {
+    background-color: #2B5B7A;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.title-information {
+    background-color: #2B5B7A;
+    border-bottom: dotted 3px #ffffff;
+    height: 70px;
+    width: 100%;
+}
+
+.code {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.description{
+    color: #ffffff;
+    height: 30px;
+    text-align: center;
+}
+
+.uni {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.quantity {
+    color: #ffffff;
+    height: 30px;
+}
+
+.unitary-value {
+    color: #ffffff;
+    height: 30px;
+}
+
+.unitary-value {
+    color: #ffffff;
+    height: 30px;
+    text-align: end;
+}
+
+.value-items {
+    color: #ffffff;
+    height: 30px;
+    text-align: start;
+}
+
+.last-infos {
+    background-color: #2B5B7A;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 200px;
+    max-width: 90%;
+    margin:30px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.products{
+    margin-top: 10px;
+    height: 55px;
+}
+
+.items {
+    color: #3B3B40 !important;
+    margin: 0;
+}
